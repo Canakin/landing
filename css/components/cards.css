@@ -1,0 +1,13 @@
+#hero {
+ text-align: center;
+ color:white;
+ align-items: center;
+
+}
+
+.banner {
+  background-image:url(https://images.8tracks.com/cover/i/000/258/769/443_IWannaRock_VBL_Z-1637.jpg?rect=0,0,600,600&q=98&fm=jpg&fit=max);
+  height:480px;
+  background-size: cover;
+  margin-top: 0;
+}

@@ -1,0 +1,97 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+.banner a {
+  text-decoration: none;
+  border:2px solid grey;
+  box-shadow: 4px 4px 4px grey;
+  padding:14px;
+  margin-top: 10px;
+  color:white;
+}
+
+.banner p {
+  padding-bottom: 15px;
+  margin-bottom:15px;
+}
+
+p {
+  font-family:'Arial';
+  padding:10px;
+}
+
+/* Classes and IDs start here */
+
+#hero {
+ text-align: center;
+ color:white;
+ align-items: center;
+ position:absolute;
+}
+
+.banner {
+  background-image:url(https://previews.123rf.com/images/anisimovfedor/anisimovfedor1707/anisimovfedor170700057/82969444-rock-on-hand-sign-rock-n-roll-hard-rock-heavy-metal-music-detailed-black-and-white-vector-illustrati.jpg);
+  height:600px;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  margin-top: 0;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cards {
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top:40px;
+}
+
+.card {
+  border:2px solid black;
+  width:300px;
+  text-align:center;
+  object-fit: cover;
+  border-radius: 25%;
+  box-shadow:5px 5px 5px grey;
+}
+
+.card img {
+  height:100px;
+  padding-top:10px;
+  opacity:0.7;
+}
+
+
+footer {
+  background-color:#708090;
+  color:white;
+  text-align:center;
+  padding-top:20px;
+  padding-bottom:20px;
+  margin-top:20px;
+  display:block;
+}
+
+footer a {
+  font-size:30px;
+  color:black;
+  border:2px dashed white;
+  padding-left:10px;
+  margin-left:10px;
+}
